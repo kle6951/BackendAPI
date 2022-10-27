@@ -18,4 +18,4 @@ BaseURL: https://your-website-address.com/
 
 | Method        | Endpoint           | Parameters  | Description  |
 | ------------- |:-------------:| -----:| -----:|
-| GET  | api/endpoint |  | Find the list of all records in the endpoint|
+| GET  | api/resources |  | Find the list of all records in the endpoint|
