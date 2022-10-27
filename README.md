@@ -1,8 +1,6 @@
-# rest-API-examples
+# rest-API-template
 
-This is a sample REST API implementation using Express JS and MySQL.
-
-The code in the main branch is working with MySQL database. Working examples with Firestore and MongoDB are provided in other branches.
+This is a sample REST API implementation using Express JS and MySQL. The code in the main branch is working with MySQL database. 
 
 
 ## Runing the code
@@ -16,11 +14,8 @@ The code in the main branch is working with MySQL database. Working examples wit
 ## REST Endpoints
 This is a sample documentation. At the time when you check this, the server might not be available to use the endpoint.
 
-BaseURL: https://comp-3504-demo.appspot.com/
+BaseURL: https://your-website-address.com/
 
 | Method        | Endpoint           | Parameters  | Description  |
 | ------------- |:-------------:| -----:| -----:|
-| GET  | api/emp |  | Find the list of all employees|
-| GET  | api/emp | name | Find the list of employees with the given name, e.g., api/emp?name="John"|
-| GET  | api/emp/:id | id | Search employee by id, e.g., api/emp/1|
-| POST  | api/emp | name, email, phone, address  | Add a new employee|
+| GET  | api/endpoint |  | Find the list of all records in the endpoint|
